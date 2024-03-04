@@ -126,6 +126,31 @@ TestBaseModel class:
 * `def test_user_module_docstring(self)` - Test for the user.py module docstring
 * `def test_user_class_docstring(self)` - Test for the User class docstring
 
+## Files Updated
+### 4-hbnb.py
+Replaced the route with 100-hbnb.
+
+### 4-hbnb.html
+Created a new template based on 3-hbnb.html. Imported `static/scripts/4-hbnb.js` in the `<head>` tag.
+
+### 100-hbnb.py
+Created a new Flask route to display a page with a dropdown menu of states and cities.
+
+### 100-hbnb.html
+Created a new template based on 4-hbnb.html. Added checkboxes for states and cities, along with JavaScript to handle filter changes.
+
+### 100-hbnb.js
+Implemented JavaScript functionality to handle changes in checkbox states for states and cities, and to make a POST request to `places_search` with the selected amenities, cities, and states.
+
+### 101-hbnb.py
+Replaced the route with 101-hbnb.
+
+### 101-hbnb.html
+Created a new template based on 100-hbnb.html. Added a button to toggle reviews and display reviews dynamically.
+
+### 101-hbnb.js
+Implemented JavaScript functionality to fetch and display reviews dynamically and toggle their visibility.
+
 
 ## Examples of use
 ```
@@ -158,7 +183,8 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
-
+Lerato Mgwangqa - [Github](https://github.com/Ivyratermgwangqa)
+Wisdom Honest - [Github](https://github.com/wishon1)
 Second part of Airbnb: Joann Vuong
 ## License
 Public Domain. No copy write protection. 
